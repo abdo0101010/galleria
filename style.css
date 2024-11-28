@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.47);
+    gap: 30px;
+
+}
+
+.nav {
+    width: 90%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.285);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.log {
+    font-size: 50px;
+}
+
+.start {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.557);
+}
+
+.con {
+    display: flex;
+    width: 90%;
+    gap: 30px;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+.c {
+    width: 24%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+
+.starry {
+
+    height: 250px;
+    background: url(img/wallpaperflare.com_wallpaper\ \(1\).jpg);
+
+
+}
+
+p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.storm {
+
+    height: 350px;
+    background: url(img/61X8UTL66KL._AC_SY879_.jpg) center;
+
+}
+
+.f {
+    width: 100%;
+    
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px;
+    gap: 10px;
+}
+h1{
+    font-size: 25px;
+    width: 100%;
+}
+.lady{
+    height: 400px;
+    background: url(img/lady\ with\ an\ ermine.webp) center ;
+    background-size: contain;
+}
+.boy{
+    height: 250px;
+    background: url(img/the\ boy\ in\ the\ red\ vest.jpeg) center no-repeat;
+    background-size: cover;
+}
+.girl{
+    height:400px;
+    background: url(img/girl\ with\ a\ pearl\ earring.jpeg) center no-repeat;
+    background-size: cover;
+}
+.wave{
+    height: 250px;
+    background: url(img/The\ Great\ Wave\ off\ Kanagawa.jpg) center no-repeat;
+        background-size: cover;
+}
+.cafe{
+    height: 250px;
+    background: url(img/the\ night\ café.webp)no-repeat center;
+    background-size: contain;
+}
+.arnolfini{
+    height: 350px;
+    background: url(img/arnolfini\ portrait.jpg) no-repeat center;
+    background-size: cover;
+}
+.gu{
+    height: 300px;
+    background: url(img/wallpaperflare.com_wallpaper\ \(3\).jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.van{
+    height: 500px;
+    background: url(img/van\ gogh\ self\ portrait.jpeg) no-repeat center;
+    background-size: cover;
+}
+.mona{
+    height: 480px;
+    background: url(img/Mona_Lisa.jpg)no-repeat center;
+    background-size: cover;
+}
+.pa{
+    height: 250px;
+    background: url(img/download.jpeg) no-repeat center;
+    background-size: cover;
+}
+.sle{
+    height: 250px;
+    background: url(img/the\ sleeping\ gypsy.jpg) no-repeat center;
+    background-size: cover;
+}
+.basket{
+    height: 400px;
+    background: url(img/the\ basket\ of\ apples.jpeg) no-repeat center;
+    background-size: cover;
+}
+.swing{
+    height: 350px;
+    background: url(img/the\ swing.jpg)no-repeat center;
+        background-size: cover;
+}
